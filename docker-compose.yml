@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+    app:
+        container_name: proj-rbp-portifolio
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - '.:/app'
+            - '/app/node_modules'
+        ports:
+            - '4001:3000'
+        environment:
+            - NODE_ENV=development
