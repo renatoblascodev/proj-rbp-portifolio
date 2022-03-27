@@ -37,3 +37,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3dc174d-6c7c-4075-bb55-0a65e5a64894/deploy-status)](https://app.netlify.com/sites/creative-biscochitos-d40471/deploys)
+
